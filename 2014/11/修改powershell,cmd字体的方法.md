@@ -1,6 +1,6 @@
-# 修改powershell,cmd字体的方法
+# 修改 powershell/cmd 字体的方法
 
-### PowserShell或cmd窗口里的字体默认比较别扭，在`属性`里又改不了，后来发现只是编码问题，方法如下：
+> powserShell或cmd窗口里的字体默认比较别扭，在`属性`里又改不了，后来发现只是编码问题，方法如下：
 
 1. 进入 powsershell 或 cmd，输入 `chcp 65001`（即改编码为utf-8）
 2. 右击窗口的`属性` -> `字体`
