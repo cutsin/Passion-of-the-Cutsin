@@ -33,7 +33,7 @@ __这是个错误的写法。__
 
 它的初衷是想让mac OSX能够使用`Helvetica`字体，但写反了，`Arial`在macOS中同样普遍存在，这样`Helvetica`根本没有被使用到的机会。正确的写法至少是：
 ```css
-body {font-family: Helvetica,Arial,sans-serif}
+body {font-family: 'Helvetica Neue',Arial,sans-serif}
 ```
 
 另外，如果不设定中文字体，浏览器会去寻找OS自身的字符映射，但如果字符映射错了（比如linux用户自行修改过），那么显示的既不是宋体，也不是雅黑。
