@@ -35,6 +35,7 @@ __这是个错误的写法。__
 ```css
 body {font-family: 'Helvetica Neue',Arial,sans-serif}
 ```
+（为什么是`Helvetica Neue`请参考：[《也说font-family和font-mapping》](https://github.com/cutsin/passion-of-the-Cutsin/blob/master/2011/07/%E4%B9%9F%E8%AF%B4font-family%E5%92%8Cfont-mapping.md)）
 
 另外，如果不设定中文字体，浏览器会去寻找OS自身的字符映射，但如果字符映射错了（比如linux用户自行修改过），那么显示的既不是宋体，也不是雅黑。
 
