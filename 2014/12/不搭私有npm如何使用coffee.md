@@ -8,7 +8,7 @@
 }
 ```
 
-但如果[不想不搭私有npm，直接引用git package](../11/commit-ish中的ish是什么意思？.md)，就会有个小问题：
+但如果[不想搭私有npm，直接引用git package](../11/commit-ish中的ish是什么意思？.md)，就会有个小问题：
 
 ## 在哪个阶段编译？
 
