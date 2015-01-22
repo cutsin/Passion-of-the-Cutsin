@@ -15,10 +15,10 @@ dependencies: {
   "passion-of-the-Cutsin": "git+https://github.com/cutsin/passion-of-the-Cutsin.git#commit-ish"
 }
 ```
-（#号及其后面可选）
+（#commit-ish可选，后详）
 
-这样根本不需要什么私有npm了嘛，无非看不了依赖、被依赖、被下载的数量，对一般的需求足够了；
-ps：npmjs.org还提供了对企业的使用方式，即用@前缀，目前免费，例如：
+这样[根本不需要什么私有npm了嘛，无非看不了依赖、被依赖、被下载的数量，对一般的需求足够了](https://github.com/cutsin/npm-git)；
+ps：npmjs.org还提供了私有npm的支持（还未开放），即用@前缀，以及企业支持（目前免费），例如：
 ```json
 dependencies: {
   "@moonless.net/passion-of-the-Cutsin": "*"
@@ -29,9 +29,10 @@ dependencies: {
 
 查了下，大约是：sort of like something else （某种这类东西），所以在这里，`commit-ish` 大意是：某种commit；`tree-ish` 大意是：树/路径的形式
 
-综上，目测 npm install git+https://xxx.xxx/xx.git#commit-ish，可以用tag/release/sha1/branch等指代版本号(默认master)
+综上，`npm install git+https://xxx.xxx/xx.git#commit-ish`，其中#commit-ish即tag/release/sha1/branch等，用来指代版本号(默认master)
 
-最后附张表：
+## 附表
+
 ```bash
 ----------------------------------------------------------------------
 |    Commit-ish/Tree-ish    |                Examples
