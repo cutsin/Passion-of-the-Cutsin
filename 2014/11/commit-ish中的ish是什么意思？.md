@@ -29,7 +29,7 @@ dependencies: {
 
 查了下，大约是：sort of like something else （某种这类东西），所以在这里，`commit-ish` 大意是：某种commit；`tree-ish` 大意是：树/路径的形式
 
-综上，目测 npm install git+https://xxx.xxx/xx.git#commit-ish，可以用tag/release/sha1等指代版本号
+综上，目测 npm install git+https://xxx.xxx/xx.git#commit-ish，可以用tag/release/sha1/branch等指代版本号(默认master)
 
 最后附张表：
 ```bash
