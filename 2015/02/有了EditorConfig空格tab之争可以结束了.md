@@ -9,4 +9,4 @@
 
 话说上次看Atom还没有windows installer非常麻烦，现在就已经有了:laughing:
 
-装了monokai主题后，切换无压力，快捷键都一样，只不过，这货，真的很卡 :sweat:
+装了monokai主题后，切换无压力，快捷键都一样，只不过，这货，很多东西不完善，插件暂无分类，主要是真的很卡 :sweat:
