@@ -6,3 +6,7 @@
 
 * SublimeText：在package control里找到`EditorConfig`，安装即可
 * Atom：在Setting里找到Install，查找`EditorConfig`，安装即可
+
+话说上次看Atom还没有windows installer非常麻烦，现在就已经有了:laughing:
+
+装了monokai主题后，切换无压力，快捷键都一样，只不过，这货，真的很卡 :sweat:
