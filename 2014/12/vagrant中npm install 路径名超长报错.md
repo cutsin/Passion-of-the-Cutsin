@@ -19,7 +19,7 @@ npm的某个版本（也许是node@0.10.21以后）开始，修改了node_module
 这卡了我好久……
 
 纠结到最后，只能依靠符号链接了……
-```
+```bash
 # 假设 my-app 是个 git 仓库
 mkdir ~/vagrant/node_modules.shadow
 ln -s ~/vagrant/node_modules.shadow/ /vagrant/node_modules
