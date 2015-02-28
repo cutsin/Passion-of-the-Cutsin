@@ -21,12 +21,10 @@ npm的某个版本（也许是node@0.10.21以后）开始，修改了node_module
 纠结到最后，只能依靠符号链接了……
 ```
 # 假设 my-app 是个 git 仓库
-git clone 至 /home/vagrant/my-app.shadow
-npm install
-# 上面只负责 git pull && npm install
-# 下面是工作目录
-git clone 至 /vagrant/my-app
-ln -s /home/vagrant/my-app.shadow/node_modules/ node_modules 
+mkdir ~/vagrant/node_modules.shadow
+ln -s ~/vagrant/node_modules.shadow/ /vagrant/node_modules
+cd /vagrant && npm install
 ```
+注意要以管理员身份运行起vagrant，不然创建软链接会报错
 
 ps：其实有[面对应用程序的解决方案](http://www.ibm.com/developerworks/cn/java/j-lo-longpath.html)，但为毛操作系统都64位了，这种问题还是存在呢？
