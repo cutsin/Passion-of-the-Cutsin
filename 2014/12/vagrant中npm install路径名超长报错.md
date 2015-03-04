@@ -19,10 +19,10 @@ Windows党肿么办…… 这卡了我好久……
 
 最后只能靠符号链接了……
 ```bash
-# 假设你的app都在vagrant的共享目录下
-cd /vagrant
-mkdir ~/node_modules.shadow
-ln -s ~/node_modules.shadow/ node_modules
+# 假设你的git库名为app
+cd /vagrant/app
+mkdir ~/node_modules/app
+ln -s ~/node_modules/app node_modules
 npm install
 ```
 注意要以管理员身份运行起vagrant，不然创建软链接会报错
