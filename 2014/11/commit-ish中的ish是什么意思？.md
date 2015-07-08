@@ -3,7 +3,7 @@
 ## npm支持非github的repo吗？
 
 本想搭个私有npm仓库，共享几个项目的package，但觉得npm不会这么弱吧，按理说应该支持啊？
-仔细看了看 [npm script](https://www.npmjs.org/doc/misc/npm-scripts.html) 文档，果然…… 不看官方文档必瞎……
+仔细看了看 [npm script](https://www.npmjs.org/doc/misc/npm-scripts.html) ，果然……
 
 其实就是格式的问题，这样即可：
 ```bash
