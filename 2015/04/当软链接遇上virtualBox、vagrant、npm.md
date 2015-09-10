@@ -16,4 +16,4 @@ config.vm.provider "virtualbox" do |vb|
 end
 ```
 
-然后`vagrant reload`就解决了，不过莫名其妙的是我后来去掉这段配置再次`vagrant up`，依然正常…… :sob:
+~~然后`vagrant reload`就解决了，不过莫名其妙的是我后来去掉这段配置再次`vagrant up`，依然正常…… :sob:~~ 似乎reload无效，需要`vagrant destroy`然后重新配置一下
