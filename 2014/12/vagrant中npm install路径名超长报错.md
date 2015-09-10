@@ -25,6 +25,6 @@ mkdir ~/node_modules/app
 ln -s ~/node_modules/app node_modules
 npm install
 ```
-注意要以管理员身份运行起vagrant，不然创建软链接会报错
+~~注意要以管理员身份运行起vagrant，不然创建软链接会报错~~ 更新：[当软链接遇上virtualBox、vagrant、npm](/2015/04/当软链接遇上virtualBox、vagrant、npm.md)
 
 ps：其实有[面对应用程序的解决方案](http://www.ibm.com/developerworks/cn/java/j-lo-longpath.html)，但为毛操作系统都64位了，这种问题还是存在呢？
