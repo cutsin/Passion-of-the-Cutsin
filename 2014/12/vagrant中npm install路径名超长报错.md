@@ -19,9 +19,9 @@ Windows党肿么办…… 这卡了我好久……
 
 最后只能靠符号链接了……
 ```bash
-# 假设你的git仓库在/vagrant/app，创建linux目录：/node_symbolic_links/app/node_modules
+# 假设你的git仓库在/vagrant/app，创建linux目录：~/node_symbolic_links/app/node_modules
 cd /vagrant/app
-ln -s /node_symbolic_links/app/node_modules node_modules
+ln -s ~/node_symbolic_links/app/node_modules
 npm install
 ```
 ~~注意要以管理员身份运行起vagrant，不然创建软链接会报错~~ 更新：[当软链接遇上virtualBox、vagrant、npm](/2015/04/当软链接遇上virtualBox、vagrant、npm.md)
