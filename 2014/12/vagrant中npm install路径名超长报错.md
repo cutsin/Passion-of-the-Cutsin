@@ -24,6 +24,9 @@ cd /vagrant/app
 ln -s ~/node_symbolic_links/app/node_modules
 npm install
 ```
-~~注意要以管理员身份运行起vagrant，不然创建软链接会报错~~ 更新：[当软链接遇上virtualBox、vagrant、npm](/2015/04/当软链接遇上virtualBox、vagrant、npm.md)
+这里还会遇到软连接的坑，virtualbox跨系统创建软连接会遇到权限问题，可能的解决方案如下：
+1. 当前用户没创建的权限，进入cmd，然后输入：`whoami /priv`，如果看不到`SeCreateSymbolicLinkPrivilege`，可以尝试运行`secpol.msc`，进入本地策略->用户权限分配->创建符号链接，把当前用户或Users组添加到这里（不过我始终不能无法通过这个方案）
+2. 直接以管理员身份运行起vagrant
+3. virtualbox本身的问题：[当软链接遇上virtualBox、vagrant、npm](/2015/04/当软链接遇上virtualBox、vagrant、npm.md)
 
 ps：其实有[面对应用程序的解决方案](http://www.ibm.com/developerworks/cn/java/j-lo-longpath.html)，但为毛操作系统都64位了，这种问题还是存在呢？
