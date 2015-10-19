@@ -1,4 +1,4 @@
-# shadowsocks服务端报Too many open files
+# 让shadowsocks在报Too many open files时重启
 
 按官方、网友教程改了各种配置，运行一段时间还是会报"Too many open files"，也不想深究原因，干脆在有这个log时自动重启一下算了，反正过程很短：
 
