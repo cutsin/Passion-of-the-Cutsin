@@ -4,7 +4,7 @@
 
 以 __CentOS 7__ 为例：
 
-1. 新建脚本：`vi /srv/shadowssocks-checker.sh`，如果状态有问题，重启服务
+1. 新建脚本：`vi /srv/shadowsocks-checker.sh`，如果状态有问题，重启服务
   ```bash
   if
     systemctl status shadowsocks-libev | tail -1 | grep 'Too many open files'
