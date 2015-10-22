@@ -19,9 +19,9 @@ Windows党肿么办…… 这卡了我好久……
 
 最后只能靠符号链接了……
 ```bash
-# 假设你的git仓库在/vagrant/app，创建linux目录：~/node_symbolic_links/app/node_modules
-cd /vagrant/app
-ln -s ~/node_symbolic_links/app/node_modules
+# 假设你的git仓库在/vagrant/appName，创建linux目录：~/node_symbolic_links/appName/node_modules
+cd /vagrant/appName
+ln -s ~/node_symbolic_links/appName/node_modules/
 npm install
 ```
 这里还会遇到软连接的坑，virtualbox跨系统创建软连接会遇到权限问题，可能的解决方案如下：
