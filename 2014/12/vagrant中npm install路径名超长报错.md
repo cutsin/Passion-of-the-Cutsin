@@ -21,6 +21,7 @@ Windows党肿么办…… 这卡了我好久……
 ```bash
 # 假设你的git仓库在/vagrant/appName
 mkdir -p ~/node_symbolic_links/appName/node_modules
+chown -R vagrant:vagrant ~/node_symbolic_links/appName/node_modules
 cd /vagrant/appName
 ln -s ~/node_symbolic_links/appName/node_modules/
 npm install
