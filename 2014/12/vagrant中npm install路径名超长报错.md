@@ -20,7 +20,7 @@ Windows党肿么办…… 这卡了我好久……
 最后只能靠符号链接了……
 ```bash
 # 假设你的git仓库在/vagrant/appName
-mkdir ~/node_symbolic_links/appName/node_modules
+mkdir -p ~/node_symbolic_links/appName/node_modules
 cd /vagrant/appName
 ln -s ~/node_symbolic_links/appName/node_modules/
 npm install
