@@ -22,7 +22,7 @@ ldd ./node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
 
 基本上是补了些lib包，[以后估计能apk add phantomjs了](https://bugs.alpinelinux.org/issues/4664)，然后package.json去掉phantomjs-prebuilt的依赖，安装次序如下：
 
-1. 下载[phantomjs.tar.gz](./phantomjs.tar.gz)
+1. 下载[phantomjs.tar.gz](https://github.com/cutsin/Passion-of-the-Cutsin/raw/master/2017/03/24/phantomjs.tar.gz)
 2. 执行 `tar -xzf phantomjs.tar.gz -C /`
 
 ### 附注
