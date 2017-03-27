@@ -6,7 +6,7 @@
 [launcher]: PhantomJS have not captured in 60000 ms, killing.
 ```
 
-被这个问题困扰了找了很久，也找了很多资料，最后定位到phantomjs实际上没有在alpine里安装成功，报symbol not found：
+被这个问题困扰了找了很久，也找了很多资料，最后定位到phantomjs实际上没有在alpine里安装成功，`ldd`后报symbol not found：
 ```bash
 ldd ./node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
 ```
