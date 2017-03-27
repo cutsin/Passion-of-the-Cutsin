@@ -11,7 +11,7 @@
 ldd ./node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
 ```
 
-然后方案找了很久……
+然后原因找了很久……
 最后的方案如下：
 
 > Since Phantomjs-prebuilt has been compiled for glibc environments, ot musl which Alpine Linux uses.
