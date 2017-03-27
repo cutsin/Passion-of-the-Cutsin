@@ -1,4 +1,4 @@
-# Alpine安装Phantomjs.md
+# Alpine安装Phantomjs
 
 在Docker里运行karma跑测试，会报：
 
