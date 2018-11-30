@@ -19,8 +19,8 @@
 1. 官方的专业版镜像，注意不能是Media Creation Tools下载的镜像，Rufus也无法支持，据开发者说是官方自己的api不同
  
   这里提供一个下载：
-  `SHA1: 82091d67fff5b49726ffc22d35d9c1cbe81dc443`
-  `ed2k://|file|cn_windows_10_consumer_editions_version_1803_updated_march_2018_x64_dvd_12063766.iso|4714162176|FB8C05DE594CD7E58D88993652DD2102|/`
+  > `SHA1: 82091d67fff5b49726ffc22d35d9c1cbe81dc443`
+  > `ed2k://|file|cn_windows_10_consumer_editions_version_1803_updated_march_2018_x64_dvd_12063766.iso|4714162176|FB8C05DE594CD7E58D88993652DD2102|/`
 
 ### 流程：
 1. 先用**BitLocker**给T5盘加密，记好密码
