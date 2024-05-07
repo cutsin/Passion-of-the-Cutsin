@@ -5,7 +5,7 @@ const sort = (str) => {
     arr.sort()
     if (reverse) arr.reverse()
     return arr.reduce((res, cur, i) => {
-      if (!res.includes(cur)) {
+      if (!res.includes(cur) || !arr[i+1]) {
         res.push(cur)
         delete arr[i]
       }
